@@ -34,7 +34,7 @@ function getfiles($path, $allowFiles, &$files = array()) {
  * @return true/false
  */
 function checkReferer($domain_list = array(
-    'github.com',
+    'rain238.github.io',
     'rainrem.top'
 )) {
     $status = false;
