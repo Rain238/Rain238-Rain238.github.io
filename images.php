@@ -35,7 +35,7 @@ function getfiles($path, $allowFiles, &$files = array()) {
  */
 function checkReferer($domain_list = array(
     'haremu.com',
-    'rainrem.top'
+    'acg.sx'
 )) {
     $status = false;
     $refer = $_SERVER['HTTP_REFERER']; //前一URL
