@@ -34,7 +34,7 @@ function getfiles($path, $allowFiles, &$files = array()) {
  * @return true/false
  */
 function checkReferer($domain_list = array(
-    'haremu.com',
+    'rainrem.top',
     'acg.sx'
 )) {
     $status = false;
