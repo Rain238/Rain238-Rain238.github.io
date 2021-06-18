@@ -34,8 +34,8 @@ function getfiles($path, $allowFiles, &$files = array()) {
  * @return true/false
  */
 function checkReferer($domain_list = array(
-    'rainrem.top',
-    'acg.sx'
+    'github.com',
+    'rainrem.top'
 )) {
     $status = false;
     $refer = $_SERVER['HTTP_REFERER']; //前一URL
