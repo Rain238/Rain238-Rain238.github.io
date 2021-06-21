@@ -1,0 +1,222 @@
+
+.card {
+
+    --color1: rgb(4, 26, 220);
+    --color2: rgb(255, 0, 0);
+    width: 320px;
+    height: 446px;
+    background-image: url(https://tva4.sinaimg.cn/large/0076Bbuvly8grla6b448aj30u01e079q.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5% / 3.5%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    vertical-align: middle;
+    margin: 20px 10px;
+    animation: holoCard 15s ease infinite;
+    transform-origin: center;
+    z-index: 10;
+    overflow: hidden;
+    transform: translate3d(0, 0, -1px);
+    box-shadow: -15px -15px 15px -13px var(--color1),
+    15px 15px 15px -15px var(--color2),
+    0 10px 20px 5px rgba(255, 255, 255, 0.5),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3)
+}
+
+.card.pika {
+    --color1: #f235ff;
+    --color2: #de1d9c;
+    /*background-image: url(https://pic.netbian.com/downpic.php?id=27494&classid=68);*/
+}
+
+.card.mew {
+    --color1: #c51ae5;
+    --color2: #7eeefa;
+    /*background-image: url(https://pic.netbian.com/downpic.php?id=27446&classid=68);*/
+}
+
+.card > span {
+    position: relative;
+    top: 45%;
+}
+
+.card:before,
+.card:after {
+    content: "";
+    opacity: .1;
+    mix-blend-mode: screen;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+
+.card:before {
+    background-position: 50% 50%;
+    background-size: 300% 300%;
+    animation: holoGradient 15s ease infinite both;
+    background-image: linear-gradient(
+            115deg,
+            transparent 0%,
+            var(--color1) 30%,
+            transparent 47.5%,
+            transparent 52.5%,
+            var(--color2) 70%,
+            transparent 100%
+    );
+}
+
+.card:after {
+    opacity: 1;
+    background-image: url("https://assets.codepen.io/13471/sparkles.gif");/*gif星星特效*/
+    background-position: center;
+    background-size: 160%;
+    z-index: 2;
+    animation: holoSparkle 15s ease infinite both;
+    filter: brightness(1);
+    transition: filter 0.5s ease;
+}
+
+.card.active {
+    animation: none;
+}
+
+.card.active:before {
+    opacity: 1;
+    animation: none;
+    transition: none;
+    background-image: linear-gradient(
+            115deg,
+            transparent 30%,
+            var(--color1) 48%,
+            var(--color2) 53%,
+            transparent 70%
+    );
+    filter: opacity(0.66);
+    mix-blend-mode: screen;
+}
+
+.card.active:before,
+.card.active:after {
+    animation: none;
+}
+
+.card.active:after {
+    filter: brightness(2.5);
+    mix-blend-mode: screen;
+}
+
+.demo .card:nth-of-type(1),
+.demo .card:nth-of-type(2),
+.demo .card:nth-of-type(3) {
+    width: 124px;
+    height: 170px;
+    box-shadow: 0 0 1px 1px rgba(0.4, 0.4, 0.4, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+    animation: none;
+}
+
+.operator {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
+@keyframes holoSparkle {
+    0%, 5%, 100% {
+        opacity: 0.2;
+        background-position: 50% 50%;
+    }
+    33% {
+        opacity: 1;
+        background-position: 40% 40%;
+        filter: brightness(2);
+    }
+    45% {
+        opacity: 0.4;
+    }
+    66% {
+        opacity: 1;
+        background-position: 60% 60%;
+        filter: brightness(2);
+    }
+}
+
+@keyframes holoGradient {
+    0%, 100% {
+        opacity: 0.05;
+        background-position: 50% 50%;
+    }
+    33% {
+        background-position: 100% 100%;
+        opacity: .66;
+    }
+    66% {
+        background-position: 0% 0%;
+        opacity: .66;
+    }
+}
+
+@keyframes holoCard {
+    0%, 100% {
+        transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+    }
+    33% {
+        transform: rotateZ(-10deg) rotateX(20deg) rotateY(-12deg);
+    }
+    66% {
+        transform: rotateZ(10deg) rotateX(-20deg) rotateY(12deg);
+    }
+}
+
+
+html, body {
+    height: 100%;
+    /*background-color: #333844;*/
+    background-image: url("https://api.paugram.com/wallpaper/"); /*随机背景图API*/
+    /*background-repeat: no-repeat;*/
+    padding: 0;
+    z-index: -1;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+body {
+    color: white;
+    background-color: #eeeeee;
+    font-family: "Heebo", sans-serif;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+p {
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+#app {
+    position: relative;
+}
+
+.demo,
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 2000px;
+    position: relative;
+    z-index: 1;
+    transform: translate3d(0.1px, 0.1px, 0.1px)
+}

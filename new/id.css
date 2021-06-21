@@ -1,0 +1,371 @@
+.center {
+    font-family: '楷体';
+    text-align: left;
+    color: #eeeeee;
+}
+
+.a {
+    text-decoration: none; /*取消超链接下划线*/
+}
+
+#_1 {
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grla6b448aj30u01e079q.jpg");
+}
+
+#_lm {
+    color: #2326F3;
+}
+
+.card.rem {
+    --color1: #0038ff;
+    --color2: #00b0ff;
+}
+
+#_ZeroTwo {
+    color: #de1d9c;
+}
+
+#_2 {
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grlx8sshihj30u01hcgsu.jpg");
+    background-size: 350px;
+    background-position-y: -20px;
+}
+
+.card.ZeroTwo {
+    --color1: #f235ff;
+    --color2: #de1d9c;
+}
+
+#_3 {
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlfrae1afj30u01sz45x.jpg");
+    background-position-y: -34px;
+}
+
+#_ilia {
+    color: chocolate;
+}
+
+.card._ilia {
+    --color1: #ff3c00;
+    --color2: #ffb700;
+}
+
+#_4 {
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlgfdcutxj30f00qotac.jpg");
+}
+
+#_AiLS {
+    color: #5e02fc;
+}
+
+.card._AiLS {
+    --color1: rgba(255, 193, 27, 0.95);
+    --color2: rgba(166, 9, 250, 0.83);
+}
+
+#_5 {
+    background-image: url("https://tva1.sinaimg.cn/large/0076Bbuvly8grlgnm1dxdj30f00qoad2.jpg");
+}
+
+#_Saber {
+    color: #0055ff;
+}
+
+.card.Saber {
+    --color1: rgba(33, 150, 243, 1);
+    --color2: rgba(22, 255, 245, 0.60);
+}
+
+#_6 {
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grli0igqr1j30u01a2tlq.jpg");
+}
+
+#_dome {
+    color: #C45BAA;
+}
+
+.card.dome {
+    --color1: rgba(175, 237, 255, 1);
+    --color2: rgb(188, 239, 255);
+}
+
+#_7 {
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlloxtw2ij30u0191qv6.jpg");
+}
+
+#_rin {
+    color: crimson;
+}
+
+.card.rin {
+    --color1: rgba(230, 115, 1, 0.68);
+    --color2: rgba(255, 78, 78, 1);
+}
+
+#_8 {
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grllvq1z3lj30u016fu0x.jpg");
+}
+
+#_nilu {
+    color: red;
+}
+
+.card.nilu {
+    --color1: rgba(118, 8, 23, 1);
+    --color2: rgba(158, 12, 33, 1);
+}
+
+#_9 {
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grls32flepj30h80m8wno.jpg");
+    background-size: 360px;
+}
+
+#_qkl {
+    color: #5d4d69;
+}
+
+.card.qkl {
+    --color1: rgb(255, 255, 255);
+    --color2: rgb(87, 63, 134);
+}
+
+#_10 {
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grlsdghpnfj30f00qok4f.jpg");
+}
+
+#_hsty {
+    color: #00b7ff;
+}
+
+.card.hsty {
+    --color1: rgba(147, 230, 241, 1);
+    --color2: rgba(145, 192, 241, 1);
+}
+
+#_11 {
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlsrp8gyfj30u00gjdln.jpg");
+    background-size: 830px;
+    background-position-x: -180px;
+}
+
+#_wn {
+    color: aliceblue;
+}
+
+.card.wn {
+    --color1: rgba(15, 27, 49, 1);
+    --color2: rgba(0, 112, 218, 1);
+}
+#_12{
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grlt1006g7j30dc0m8jsj.jpg");
+}
+#_kn{
+    color: #ffd1f8;
+}
+.card.kn{
+    --color1: rgba(219,76,180,1);
+    --color2: rgba(255,180,241,1);
+}
+#_13{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlt5a0qx7j30u01c0hdt.jpg");
+}
+#_ter{
+    color: #fdc065;
+}
+.card.ter{
+    --color1: rgba(255,166,0,1);
+    --color2: rgba(255,99,97,1);
+}
+#_14{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grltcgqs0jj30u01t0tgd.jpg");
+    background-position-y: -68px;
+}
+#_lamu{
+    color: deeppink;
+}
+.card._lamu{
+    --color1: rgba(255,105,180,1);
+    --color2: rgba(255,174,215,1);
+}
+#_15{
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grltihk0ujj30k00zkwha.jpg");
+}
+#_amly{
+    color: #5e02fc;
+}
+.card.amly{
+    --color1: rgba(62,5,116,1);
+    --color2: rgba(216,68,148,1);
+}
+#_16{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grltmvwld9j30u01szqao.jpg");
+}
+#_gw{
+    color: green;
+}
+.card.gw{
+    --color1: rgba(50,172,109,1);
+    --color2: rgba(209,251,155,1);
+}
+#_17{
+    background-image: url("https://tva1.sinaimg.cn/large/0076Bbuvly8grltpr1spuj30u01rcq8q.jpg");
+    background-position-y: -60px;
+}
+#_jg{
+    color: #e8162f;
+}
+.card.jg{
+    --color1: rgba(245,168,168,1);
+    --color2: rgba(164,168,248,1);
+}
+#_18{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grltzytqz2j30fq0rswl8.jpg");
+    background-position-y: -242px;
+    background-size: 400px;
+}
+#_mqy{
+    color: #ffb700;
+}
+.card.mqy{
+    /*--color1: rgba();*/
+    /*--color2: rgba();*/
+    --color1: rgba(253,220,155,1);
+    --color2: rgba(255,215,165,1);
+}
+#_19{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlu6ybtlej30u016etg0.jpg");
+    background-size: 400px;
+    background-position-x: 0px;
+    background-position-y: -50px;
+}
+#_tshh{
+    color: #f52b5b;
+}
+.card.tshh{
+    --color1: rgb(255, 187, 112);
+    --color2: rgb(147, 60, 180);
+}
+#_20{
+    background-image: url("https://tva1.sinaimg.cn/large/0076Bbuvly8grlufmmkirj30n01dsgqf.jpg");
+    background-position-y: -80px;
+}
+#_dx{
+    color: pink;
+}
+.card.dx{
+    --color1: rgb(243, 2, 76);
+    --color2: rgba(245,168,168,1);
+}
+#_21{
+    background-image: url("https://tva1.sinaimg.cn/large/0076Bbuvly8grlum8uky5j30k00zkgoo.jpg");
+}
+#_zmzb{
+    color: #962342;
+}
+.card.zmzb{
+    --color1: rgba(33,150,243,1);
+    --color2: rgba(255,207,139,1);
+}
+/*#_22{*/
+/*    !*background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grluvdltcnj30ik0sgn8v.jpg");*!*/
+/*    background-size: 430px;*/
+/*    background-position-y: 0px;*/
+/*}*/
+#_22{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlvdapnwqg30f009lnpd.gif");
+    background-size: 780px;
+    background-position-x: -55px;
+}
+#_kll{
+    color: #b6222d;
+}
+.card.kll{
+    --color1: rgba(232,5,5,1);
+    --color2: rgb(255, 189, 169);
+}
+#_23{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlvhx9egzj30u01po7i0.jpg");
+}
+#_ysn{
+    color: aliceblue;
+}
+.card.ysn{
+    --color1: rgba(255,115,68,1);
+    --color2: rgba(244,255,32,1);
+}
+#_24{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlvlcpfi3j30m80zknlp.jpg");
+}
+#_lf{
+    color: #5acc6a;
+}
+.card.lf{
+    --color1: rgba(0,191,165,1);
+    --color2: rgba(0,140,122,1);
+}
+#_25{
+    background-image: url("https://tva1.sinaimg.cn/large/0076Bbuvly8grlvs0v5w0j30u0140gvk.jpg");
+    background-size: 500px;
+}
+#_ss{
+    color: #eebecc;
+}
+.card.ss{
+    --color1: rgba(255,77,77,0.7);
+    --color2: rgba(251,174,222,1);
+}
+#_26{
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grlvy3fb91j30u01rcahh.jpg");
+}
+#_xnh{
+    color: #a15eff;
+}
+.card.xnh{
+    --color1: rgb(118, 89, 252);
+    --color2: rgba(182,44,248,1);
+}
+#_27{
+    background-image: url("https://tva3.sinaimg.cn/large/0076Bbuvly8grlw38jm8kj30u01401kx.jpg");
+    background-size: 450px;
+}
+#_bllm{
+    color: #c5373a;
+}
+.card.bllm{
+    --color1: rgb(201, 53, 199);
+    --color2: rgb(198, 39, 36);
+}
+#_28{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlwa7ax72j30ia0q37v4.jpg");
+}
+#_gssy{
+    color: #e6b3b2;
+}
+.card.gssy{
+    --color1: rgba(56,248,249,1);
+    --color2: #fa5d5c;
+}
+#_29{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlwgtf8wfj30xc0nlq5t.jpg");
+    background-size: 780px;
+    background-position-x: -275px;
+}
+#_dxy{
+    color: #6db587;
+}
+.card.dxy{
+    --color1: rgba(160,250,141,1);
+    --color2: rgb(14, 206, 227);
+}
+#_30{
+    background-image: url("https://tva2.sinaimg.cn/large/0076Bbuvly8grlwy3jok0j30xc0irdtc.jpg");
+    background-size: 880px;
+    background-position-x: -440px;
+}
+#_ly{
+    color: #aa9bb7;
+}
+.card.ly{
+    --color1: rgba(50,172,109,1);
+    --color2: rgba(209,251,155,1);
+}
