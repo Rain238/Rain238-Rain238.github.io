@@ -6917,4 +6917,73 @@ span.label {
     animation-play-state: running
 }
 
-/* rebuild by hrmmi */
+/*背景图设置*/
+.img{
+    background-image: url("./img.png");/*随机背景API https://api.mtyqx.cn/api/random.php*/
+    background-repeat: no-repeat;/*禁止背景重复*/
+    background-attachment: fixed;/*固定背景不跟鼠标滑动*/
+}
+/*通知输入框设置*/
+.msg{
+    margin-left: 258px;
+    width: 1026px;
+    padding: 13px 40px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(253, 253, 253, 0.14);
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+}
+/*占位符颜色*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #e80b0b;
+    font-size: 15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #e80b0b;
+    font-size: 15px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e80b0b;
+    font-size: 15px;
+}
+
+/*按钮设置*/
+.submit{
+    margin-left: -5px;
+    padding: 11.9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgba(253, 253, 253, 0.14);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.submit {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+/*鼠标悬浮按钮状态*/
+.submit:hover {
+    background-color: #ff0000; /* Green */
+    color: white;
+}
+/*输入框悬浮状态*/
+.msg:hover{
+    background-color: rgba(255, 255, 255, 0.45); /* Green */
+    color: white;
+}
+/*留言板字体设置*/
+.message-board{
+    font-size: 6em;
+    margin-top: -80px;
+}
+/*.h1{*/
+/*    padding-bottom:100px;*/
+/*}*/
+.span{
+    font-size: 2em;
+}
