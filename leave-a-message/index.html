@@ -15,6 +15,34 @@
           href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
     <link rel="stylesheet" href="./leave-a-message.css?v=0.2.5">
     <meta name="keywords" content="留言板">
+
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="huaban" content="nopin" />
+
     <link rel="canonical" href="https://rainrem.top/%E5%9B%BE%E8%A1%A8/">
     <title>留言板| Rain Sauce = 欢迎来到Rain的后宫 = 程序是有生命的精灵</title>
     <meta name="generator" content="Hexo 5.4.0">
@@ -281,27 +309,6 @@
     }]
 }</script>
 <script type="text/javascript">
-
-    function html(){
-
-        var winH = $(window).height(); //获取当前视口高度
-
-        var htmlH = $(document).innerHeight(); //获取当前html高度
-
-        var headerH = $('header').innerHeight(); //获取当前头部高度
-
-        var footerH = $('footer').innerHeight(); //获取当前底部高度
-
-        if(htmlH < winH){  //进行判断
-
-            $('main').height(winH - headerH - footerH); //设置主体内容高度
-
-        }
-
-    }
-
-</script>
-<script type="text/javascript">
 function tz(){
     var a=document.getElementById('msg');
     var b=a.value;
@@ -312,6 +319,30 @@ function tz(){
     }
 }
 </script>
+
+<script>
+    //得到手机屏幕的宽度
+    let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    console.log('htmlWidth',htmlWidth)
+    //得到html的Dom元素
+    let htmlDom = document.getElementsByTagName('html')[0];
+    var msg = document.getElementById('msg');
+    var header = document.getElementById('header');
+    if(htmlWidth>640){//超过640大小的，字体根部都是16px
+      msg.style.marginLeft="258px";
+      htmlWidth=640;
+      console.log('htmlWidth-true',htmlWidth);
+    }
+    if(htmlWidth<640){
+      msg.style.marginLeft="4px";
+      msg.style.width="250px";
+      header.style.height="13vh";
+    }
+    //设置根元素字体大小
+    htmlDom.style.fontSize = htmlWidth / 40 + 'px';
+
+</script>
+
 <script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
 <script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
 <script src="/js/app.js?v=0.2.5"></script>
