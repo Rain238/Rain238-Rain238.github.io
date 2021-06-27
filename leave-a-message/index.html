@@ -19,6 +19,8 @@
     <title>留言板| Rain Sauce = 欢迎来到Rain的后宫 = 程序是有生命的精灵</title>
     <meta name="generator" content="Hexo 5.4.0">
     <style>
+
+
         /*背景图设置*/
         .img{
             background-image: url("./img.png");/*随机背景API https://api.mtyqx.cn/api/random.php*/
@@ -278,6 +280,27 @@
         return new RegExp(LOCAL.path + "$").test(e)
     }]
 }</script>
+<script type="text/javascript">
+
+    function html(){
+
+        var winH = $(window).height(); //获取当前视口高度
+
+        var htmlH = $(document).innerHeight(); //获取当前html高度
+
+        var headerH = $('header').innerHeight(); //获取当前头部高度
+
+        var footerH = $('footer').innerHeight(); //获取当前底部高度
+
+        if(htmlH < winH){  //进行判断
+
+            $('main').height(winH - headerH - footerH); //设置主体内容高度
+
+        }
+
+    }
+
+</script>
 <script type="text/javascript">
 function tz(){
     var a=document.getElementById('msg');
