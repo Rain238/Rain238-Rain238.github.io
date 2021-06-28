@@ -6919,7 +6919,7 @@ span.label {
 
 /*背景图设置*/
 .img{
-    background-image: url("./img.png");/*随机背景API https://api.mtyqx.cn/api/random.php*/
+    background-image: url("https://tva4.sinaimg.cn/large/0076Bbuvly8grxsmqa7hpj31hc0u0x6p.jpg");/*随机背景API https://api.mtyqx.cn/api/random.php*/
     background-repeat: no-repeat;/*禁止背景重复*/
     background-attachment: fixed;/*固定背景不跟鼠标滑动*/
 }

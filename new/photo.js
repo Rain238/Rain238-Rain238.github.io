@@ -26,4 +26,3 @@ $cards.on("mousemove", function (e) {
 }).on("mouseout", function () {
   $cards.removeClass("active");
 });
-    
