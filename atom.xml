@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rainrem.top</id>
+    <id>https://r.rainrem.top</id>
     <title>雨的记忆</title>
     <subtitle>程序是有生命的精灵</subtitle>
-    <icon>https://rainrem.top/images/favicon.ico</icon>
-    <link href="https://rainrem.top" />
+    <icon>https://r.rainrem.top/images/favicon.ico</icon>
+    <link href="https://r.rainrem.top" />
     <author>
       <name>Rain</name>
     </author>
     <updated>2021-06-25T17:25:42.000Z</updated>
     <entry>
-        <id>https://rainrem.top/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</id>
+        <id>https://r.rainrem.top/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</id>
         <title>Hexo基本配置</title>
-        <link rel="alternate" href="https://rainrem.top/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
+        <link rel="alternate" href="https://r.rainrem.top/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -88,18 +88,18 @@
  scripts：js 脚本&lt;br /&gt;
  source：里面是 CSS 跟 JS 和图片文件&lt;/p&gt;
 </content>
-        <category term="Hexo" scheme="https://rainrem.top/categories/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
-        <category term="Hexo" scheme="https://rainrem.top/tags/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/categories/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/tags/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
         <updated>2021-06-25T17:25:42.000Z</updated>
     </entry>
     <entry>
-        <id>https://rainrem.top/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
+        <id>https://r.rainrem.top/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
         <title>给博客设置个人域名</title>
-        <link rel="alternate" href="https://rainrem.top/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+        <link rel="alternate" href="https://r.rainrem.top/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -149,18 +149,18 @@
 &lt;li&gt;&lt;code&gt;hexo g&lt;/code&gt;  生成页面后可以用 &lt;code&gt;hexo s&lt;/code&gt;  在浏览器输入 localhost:4000 用于本地查看效果，满意后在用 &lt;code&gt;hexo d&lt;/code&gt;  部署到 GitHub&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="Hexo" scheme="https://rainrem.top/categories/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
-        <category term="Hexo" scheme="https://rainrem.top/tags/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/categories/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/tags/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
         <updated>2021-06-25T14:11:04.000Z</updated>
     </entry>
     <entry>
-        <id>https://rainrem.top/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
+        <id>https://r.rainrem.top/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
         <title>关于Hexo博客搭建</title>
-        <link rel="alternate" href="https://rainrem.top/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+        <link rel="alternate" href="https://r.rainrem.top/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -291,18 +291,18 @@
 &lt;li&gt;等一会你就可以去访问此链接了换成你的用户名访问即可 &lt;code&gt;http://你的Git用户名.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="Hexo" scheme="https://rainrem.top/categories/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
-        <category term="Hexo" scheme="https://rainrem.top/tags/Hexo/" />
-        <category term="教程" scheme="https://rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
-        <category term="博客搭建" scheme="https://rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/categories/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
+        <category term="Hexo" scheme="https://r.rainrem.top/tags/Hexo/" />
+        <category term="教程" scheme="https://r.rainrem.top/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="博客搭建" scheme="https://r.rainrem.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" />
         <updated>2021-06-24T18:29:43.000Z</updated>
     </entry>
     <entry>
-        <id>https://rainrem.top/computer-science/note/theme-shoka-doc/</id>
+        <id>https://r.rainrem.top/computer-science/note/theme-shoka-doc/</id>
         <title>MySQL数据库语法分类</title>
-        <link rel="alternate" href="https://rainrem.top/computer-science/note/theme-shoka-doc/"/>
+        <link rel="alternate" href="https://r.rainrem.top/computer-science/note/theme-shoka-doc/"/>
         <content type="html">&lt;h1 id=&#34;sql语言四大分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sql语言四大分类&#34;&gt;#&lt;/a&gt; SQL 语言四大分类&lt;/h1&gt;
 &lt;h2 id=&#34;ddl-数据定义语言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ddl-数据定义语言&#34;&gt;#&lt;/a&gt; DDL 数据定义语言&lt;/h2&gt;
 &lt;ol&gt;
@@ -363,16 +363,16 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;语法&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; 字段列表 from 表1 left &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;outer&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;join&lt;/span&gt; 表2 on 条件&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;查询的是左表所有的数据以及其交集的部分&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SELECT t1.*,t2.&lt;span class=&#34;token string&#34;&gt;&#39;name&#39;&lt;/span&gt; FROM emp t1 LEFT JOIN dept t2 on t1.&lt;span class=&#34;token string&#34;&gt;&#39;dept_id&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; t2.&lt;span class=&#34;token string&#34;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;右外链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#右外链接&#34;&gt;#&lt;/a&gt; 右外链接&lt;/h2&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;语法&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; 字段列表 from 表1 right &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;outer&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;join&lt;/span&gt; 表2 on 条件&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;查询的是右表所有的数据以及其交集的部分&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SELECT t1.*,t2.&lt;span class=&#34;token string&#34;&gt;&#39;name&#39;&lt;/span&gt; FROM emp t1 right JOIN dept t2 on t1.&lt;span class=&#34;token string&#34;&gt;&#39;dept_id&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; t2.&lt;span class=&#34;token string&#34;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;多表显式内连接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多表显式内连接&#34;&gt;#&lt;/a&gt; 多表显式内连接&lt;/h2&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;select&lt;/span&gt; 字段列表 from 表名1 &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;inner&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;join&lt;/span&gt; 表名2 on 条件&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;例如:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SELECT * FROM emp INNER JOIN dept oN emp.&lt;span class=&#34;token string&#34;&gt;&#39;dept_id = dept.id&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SELECT * FROM emp J0IN dept oN emp.&lt;span class=&#34;token string&#34;&gt;&#39;dept_id&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; dept.&lt;span class=&#34;token string&#34;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="MYSQL" scheme="https://rainrem.top/categories/MYSQL/" />
-        <category term="数据库" scheme="https://rainrem.top/categories/MYSQL/%E6%95%B0%E6%8D%AE%E5%BA%93/" />
-        <category term="MYSQL" scheme="https://rainrem.top/tags/MYSQL/" />
-        <category term="数据库" scheme="https://rainrem.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" />
+        <category term="MYSQL" scheme="https://r.rainrem.top/categories/MYSQL/" />
+        <category term="数据库" scheme="https://r.rainrem.top/categories/MYSQL/%E6%95%B0%E6%8D%AE%E5%BA%93/" />
+        <category term="MYSQL" scheme="https://r.rainrem.top/tags/MYSQL/" />
+        <category term="数据库" scheme="https://r.rainrem.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" />
         <updated>2021-06-19T21:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://rainrem.top/%E5%9B%BE%E8%A1%A8/</id>
+        <id>https://r.rainrem.top/%E5%9B%BE%E8%A1%A8/</id>
         <title>壁纸</title>
-        <link rel="alternate" href="https://rainrem.top/%E5%9B%BE%E8%A1%A8/"/>
+        <link rel="alternate" href="https://r.rainrem.top/%E5%9B%BE%E8%A1%A8/"/>
         <content type="html">&lt;h2 id=&#34;图案列表-no1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图案列表-no1&#34;&gt;#&lt;/a&gt; 图案列表 No.1&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1giclfdu6exj20zk0m87hw.jpg&#34; alt=&#34;&#34; title=&#34;这里是 title&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
@@ -389,7 +389,7 @@
 &lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1gipetfk5zwj20zk0m8e81.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="壁纸" scheme="https://rainrem.top/tags/%E5%A3%81%E7%BA%B8/" />
+        <category term="壁纸" scheme="https://r.rainrem.top/tags/%E5%A3%81%E7%BA%B8/" />
         <updated>2021-06-18T10:20:13.089Z</updated>
     </entry>
 </feed>
