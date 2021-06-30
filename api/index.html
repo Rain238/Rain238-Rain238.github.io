@@ -14,7 +14,7 @@
     <link rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
     <link rel="stylesheet" href="./leave-a-message.css?v=0.2.5">
-    <meta name="keywords" content="留言板">
+    <meta name="keywords" content="随机API">
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <!-- 启用360浏览器的极速模式(webkit) -->
@@ -42,10 +42,10 @@
     <meta content="telephone=no" name="format-detection" />
     <meta name="huaban" content="nopin" />
     <link rel="canonical" href="https://rainrem.top/%E5%9B%BE%E8%A1%A8/">
-    <title>留言板| Rain Sauce = 欢迎来到Rain的后宫 = 程序是有生命的精灵</title>
+    <title>随机API| Rain Sauce = 雨的记忆 = 程序是有生命的精灵</title>
     <meta name="generator" content="Hexo 5.4.0">
 </head>
-<body itemscope itemtype="http://schema.org/WebPage" class="img" id="_1">
+<body itemscope itemtype="http://schema.org/WebPage"  id="RandomImg">
 <div id="loading">
     <div class="cat">
         <div class="body"></div>
@@ -68,10 +68,7 @@
     <header id="header" itemscope itemtype="http://schema.org/WPHeader">
         <div class="inner">
             <div id="brand">
-                <div class="pjax"><h1 class="message-board" itemprop="name headline">留言板</h1>
-                    <div class="meta"><span class="item" title="创建时间：2021-06-23 18:20:13"><span class="text"><h1 class="h1"><span class="span">使用方式</span><p>请先填入昵称跟邮箱否则无法留言</p><p>问题请先在下方留言后在使用通知框,通知博主</p></h1></span> <time
-                            itemprop="dateCreated datePublished" datetime="2021-06-18T18:20:13+08:00">上线于2021-06-23</time> </span></span></div>
-                </div>
+
             </div>
             <nav id="nav">
                 <div class="inner">
@@ -100,16 +97,53 @@
         </svg>
     </div>
     <main>
-        <iframe id="fraSubmit" name="fraSubmit" style="display:none;" scrolling="yes" noresize src="about:blank"  ></iframe>
-        <form action="https://qmsg.zendee.cn/send/e2f1323b93908260f60db4f4180ef8c0" method=post name=myform target="fraSubmit">
+
 <!--        <form action="https://qmsg.zendee.cn/send/e2f1323b93908260f60db4f4180ef8c0" method="post" οnsubmit="return validateCallback(this, navTabAjaxDone)">-->
-            <input id="msg" class="msg" name="msg" required type="text" placeholder="请在下方留言后在用此框，输入名称用逗号分隔,逗号后面就是你要发的内容，请勿频繁使用">
-            <input  type="submit" class="submit" value="通知博主" onclick="tz()">
-        </form>
+<!--        <div class="head">-->
+<!--            <p><h1 class="same">不在为千篇一律的背景而烦恼,随心所动</h1></p>-->
+<!--        </div>-->
+            <input id="msg" class="msg" name="msg" type="text" readonly>
         <div class="inner">
             <div id="main" class="pjax">
-                    <div class="wrap" id="comments"></div>
+
+                <div class="frame" id="frame">
+                    <p class="title" id="title">
+                        API基本调用方式：</p>
+                    <div class="frame2" id="frame2">
+                        <p class="https" id="https"><a class="con" id="con" href="https://api.rainrem.top/index.php"
+                                            target="_blank">https://api.rainrem.top/index.php</a>(最美不过二次元)</p>
+                        <p class="https" id="https2">本站免费提供随机API接口,第一次访问可能需要5~30秒,因为太穷了租不起服务器所以暂时使用的免费的可能会比较慢一点,更新近2000张图片→<a
+                                class="con" id="con2" href="../壁纸库/index.html" target="_blank">部分图片展示</a>←
+                            不在为千篇一律的背景而烦恼,随心所动,不限次数调用
+                        </p>
+                    </div>
+                    <div class="reward">
+                        <a  href="https://tva4.sinaimg.cn/large/0076Bbuvly8grzs90cij8j30va0c4wj3.jpg" target="_blank"> <button class="赞赏"><i class="ic i-heartbeat"></i> 赞赏</button></a>
+                        <p>请我喝[茶]~(￣▽￣)~*</p>
+                        <div class="status">
+                            <div class="copyright"><span id="sitetime"></span>
+                                <script language="javascript">function siteTime() {
+                                    window.setTimeout("siteTime()", 1e3);
+                                    var e = 1e3, t = 60 * e, o = 60 * t, i = 24 * o, a = 365 * i, n = new Date, r = n.getFullYear(),
+                                        l = n.getMonth() + 1, s = n.getDate(), M = n.getHours(), g = n.getMinutes(),
+                                        m = n.getSeconds(), T = Date.UTC(2021, 6, 15, 15, 0, 0), f = Date.UTC(r, l, s, M, g, m),
+                                        h = f - T, u = Math.floor(h / a), d = Math.floor(h / i - 365 * u),
+                                        D = Math.floor((h - (365 * u + d) * i) / o),
+                                        c = Math.floor((h - (365 * u + d) * i - D * o) / t),
+                                        w = Math.floor((h - (365 * u + d) * i - D * o - c * t) / e);
+                                    document.getElementById("sitetime").innerHTML = " 诞生于" + d + " 天 " + D + " 小时 " + c + " 分钟 " + w + " 秒前"
+                                }
+                                siteTime()</script>
+                                <br>&copy; <span itemprop="copyrightYear">2021</span> <span class="with-love"><i
+                                        class="ic i-sakura rotate"></i> </span><span class="author"
+                                                                                     itemprop="copyrightHolder">Rain @ Rain Sauce</span>
+                            </div>
+                            <div class="powered-by">本站由Hexo & Yume Shoka建成</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div id="sidebar">
                 <div class="inner">
                     <div class="panels">
@@ -163,9 +197,9 @@
                                         </ul>
                                     </li>
                                     <li class="item"><a href="/accessmap/" rel="section"><i class="ic i-info-circle"></i>访客</a>
+                                    </li>
                                     <li class="item"><a href="/leave-a-message/" rel="section"><i
                                             class="ic i-envelope"></i>留言</a></li>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -184,35 +218,6 @@
             <div class="dimmer"></div>
         </div>
     </main>
-    <footer id="footer">
-        <div class="inner">
-            <div class="widgets">
-            </div>
-            <div class="status">
-                <div class="copyright"><span id="sitetime"></span>
-                    <script language="javascript">function siteTime() {
-                        window.setTimeout("siteTime()", 1e3);
-                        var e = 1e3, t = 60 * e, o = 60 * t, i = 24 * o, a = 365 * i, n = new Date, r = n.getFullYear(),
-                            l = n.getMonth() + 1, s = n.getDate(), M = n.getHours(), g = n.getMinutes(),
-                            m = n.getSeconds(), T = Date.UTC(2021, 6, 15, 15, 0, 0), f = Date.UTC(r, l, s, M, g, m),
-                            h = f - T, u = Math.floor(h / a), d = Math.floor(h / i - 365 * u),
-                            D = Math.floor((h - (365 * u + d) * i) / o),
-                            c = Math.floor((h - (365 * u + d) * i - D * o) / t),
-                            w = Math.floor((h - (365 * u + d) * i - D * o - c * t) / e);
-                        document.getElementById("sitetime").innerHTML = " 诞生于" + d + " 天 " + D + " 小时 " + c + " 分钟 " + w + " 秒前"
-                    }
-                    siteTime()</script>
-                    <br>&copy; <span itemprop="copyrightYear">2021</span> <span class="with-love"><i
-                            class="ic i-sakura rotate"></i> </span><span class="author" itemprop="copyrightHolder">Rain @ Rain Sauce</span>
-                </div>
-                <div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i> </span><span
-                        title="站点总字数">36k 字</span> <span class="post-meta-divider">|</span> <span
-                        class="post-meta-item-icon"><i class="ic i-coffee"></i> </span><span title="站点阅读时长">32 分钟</span>
-                </div>
-                <div class="powered-by">本站由Hexo & Yume Shoka建成</div>
-            </div>
-        </div>
-    </footer>
 </div>
 
 <script type="text/javascript" src="./leave-a-message.js"></script>
