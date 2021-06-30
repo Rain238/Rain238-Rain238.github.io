@@ -12,7 +12,7 @@ var https2 = document.getElementById('https2');
 var con = document.getElementById('con');
 var con2 = document.getElementById('con2');
 //获取titleId
-var title = document.getElementById('title');
+var title = document.getElementById('API');
 //获取body的背景图
 var img = document.getElementById('RandomImg');
 if(htmlWidth>640){//超过640大小的，字体根部都是16px
@@ -25,7 +25,7 @@ if(htmlWidth>640){//超过640大小的，字体根部都是16px
 if(htmlWidth<640){
     img.style.backgroundPositionX = "-1100px";//设置body背景图位置
     frame.style.width="350px";
-    frame.style.height="560px";
+    frame.style.height="570px";
     frame.style.marginTop="-120px";
     frame.style.marginLeft="auto";
     title.style.fontSize="30px";

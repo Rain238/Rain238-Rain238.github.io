@@ -2569,7 +2569,8 @@ main > .inner {
     position: relative;
     padding: 0 .625rem;
     letter-spacing: .0625rem;
-    text-align: center
+    text-align: center;
+    margin-top: 20px;
 }
 
 @media (max-width: 767px) {
@@ -6974,11 +6975,11 @@ span.label {
     color: rgba(58, 208, 255, 0.97);
 }
 
-.same, .logo, .rain, .title,.index {
+.same, .logo, .rain, .API,.index {
     text-shadow: rgb(0, 0, 0) 1px 1px 1px; /*文本投影*/
 }
 
-.title {
+.API {
     color: #00ccff;
     margin-left: 15px;
     margin-top: 10px;
