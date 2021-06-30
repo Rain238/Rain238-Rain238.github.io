@@ -38,6 +38,7 @@ if(htmlWidth<640){
     https2.style.fontSize="20px";
     con.style.color="rgba(255,57,102,0.89)";
     con2.style.color="rgba(255,0,58,0.89)";
+    htmlDom.style.fontSize = htmlWidth /20+ 'px';//修改整体字体
 }
 /*状态栏*/
 var LOCAL = {
