@@ -608,7 +608,7 @@
         <title>Hexo基本配置</title>
         <link rel="alternate" href="https://r.rainrem.top/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/index.html&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/index.html&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/index.html&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;hexo基本配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo基本配置&#34;&gt;#&lt;/a&gt; Hexo 基本配置&lt;/h1&gt;
 &lt;ul&gt;
@@ -695,7 +695,7 @@
         <title>给博客设置个人域名</title>
         <link rel="alternate" href="https://r.rainrem.top/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/index.html&#34;&gt;🚀关于 Hexo 博客搭建&lt;/a&gt; - &lt;a href=&#34;/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/index.html&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/index.html&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;设置个人域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置个人域名&#34;&gt;#&lt;/a&gt; 设置个人域名&lt;/h1&gt;
 &lt;ul&gt;
@@ -756,7 +756,7 @@
         <title>关于Hexo博客搭建</title>
         <link rel="alternate" href="https://r.rainrem.top/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
         <content type="html">&lt;div class=&#34;note danger no-icon&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.html&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/computer-science/note/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/index.html&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/%E7%BB%99%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/index.html&#34;&gt;🚀给博客设置个人域名&lt;/a&gt; - &lt;a href=&#34;/Hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/index.html&#34;&gt;🚀Hexo 基本配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h1&gt;
 &lt;div class=&#34;note primary&#34;&gt;
