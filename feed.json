@@ -7,6 +7,17 @@
     "home_page_url": "https://r.rainrem.top",
     "items": [
         {
+            "id": "https://r.rainrem.top/%E5%85%B3%E4%BA%8Etomcat/",
+            "url": "https://r.rainrem.top/%E5%85%B3%E4%BA%8Etomcat/",
+            "title": "关于访问Tomcat10.0.8报500异常",
+            "date_published": "2021-07-14T10:40:02.000Z",
+            "content_html": "<h1 id=\"关于报错\"><a class=\"anchor\" href=\"#关于报错\">#</a> 关于报错</h1>\n<p>今天创建 Tomcat 来访问 Servlet 的时候浏览器页面显示 500 错误，检查了一下都没有错误，控制台也没有任何错误，web.xml 配置也是正确的<br />\n但是访问就会抛出 500 异常，尝试了一下用 WebServle 注解但是也访问不到，会直接显示 404<br />\n<img data-src=\"https://tva1.sinaimg.cn/large/0076Bbuvly8gsgo5len7ij31hc0tetc4.jpg\" alt=\"\" /></p>\n<h1 id=\"解决方案\"><a class=\"anchor\" href=\"#解决方案\">#</a> 解决方案</h1>\n<p>解决错误前先检查一下 Tomcat 的 jar 包有没有导入到该项目下<br />\n IDEA 为例： <code>File-&gt;Project Structure-&gt;Modules-&gt;Dependencies</code> <br />\n<img data-src=\"https://tva2.sinaimg.cn/large/0076Bbuvly8gsgozwndboj31hc0u0teg.jpg\" alt=\"\" /><br />\n<img data-src=\"https://tva4.sinaimg.cn/large/0076Bbuvly8gsgp0or0e8j30pg0jojsn.jpg\" alt=\"\" /><br />\n 点击 Library<br />\n<img data-src=\"https://tva1.sinaimg.cn/large/0076Bbuvly8gsgp1w7234j305s01s3yb.jpg\" alt=\"\" /><br />\n<img data-src=\"https://tva2.sinaimg.cn/large/0076Bbuvly8gsgp2j6rktj30f00dndfy.jpg\" alt=\"\" /><br />\n 将 Tomcat 添加进去然后导入该 jar 包下的 Servlet 就可以解决了<br />\n Tomcat10 版本好像 Servlet 的包名换了<br />\n错误导包  <code>javax.servlet.*</code> <br />\n 正确导包  <code>jakarta.servlet.Servlet</code> <br />\n 导入 <code>jakarta.servlet.Servlet</code>  该包后重启服务器就解决了</p>\n<h2 id=\"webservlet注解\"><a class=\"anchor\" href=\"#webservlet注解\">#</a> WebServlet 注解</h2>\n<p>WebServlet 注解需要导入 <code>jakarta.servlet.annotation.WebServlet</code> <br />\n 如果导入成 <code>javax.servlet.annotation.WebServlet</code> javax 包里面的也是用不了的<br />\n<img data-src=\"https://tva1.sinaimg.cn/large/0076Bbuvly8gsgogg9rqoj31hc0teqb4.jpg\" alt=\"\" /></p>\n",
+            "tags": [
+                "Tomcat",
+                "Tomcat"
+            ]
+        },
+        {
             "id": "https://r.rainrem.top/Bootstrap%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/",
             "url": "https://r.rainrem.top/Bootstrap%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/",
             "title": "Bootstrap前端框架",

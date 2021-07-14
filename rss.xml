@@ -10,8 +10,38 @@
         </author>
         <description>这不是一个Bug,这只是一个未列出来的特性</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 13 Jul 2021 23:18:32 +0800</pubDate>
-        <lastBuildDate>Tue, 13 Jul 2021 23:18:32 +0800</lastBuildDate>
+        <pubDate>Wed, 14 Jul 2021 18:40:02 +0800</pubDate>
+        <lastBuildDate>Wed, 14 Jul 2021 18:40:02 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://r.rainrem.top/%E5%85%B3%E4%BA%8Etomcat/</guid>
+            <title>关于访问Tomcat10.0.8报500异常</title>
+            <link>https://r.rainrem.top/%E5%85%B3%E4%BA%8Etomcat/</link>
+            <category term="Tomcat" scheme="https://r.rainrem.top/categories/Tomcat/" />
+            <category term="Tomcat" scheme="https://r.rainrem.top/tags/Tomcat/" />
+            <pubDate>Wed, 14 Jul 2021 18:40:02 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;关于报错&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于报错&#34;&gt;#&lt;/a&gt; 关于报错&lt;/h1&gt;
+&lt;p&gt;今天创建 Tomcat 来访问 Servlet 的时候浏览器页面显示 500 错误，检查了一下都没有错误，控制台也没有任何错误，web.xml 配置也是正确的&lt;br /&gt;
+但是访问就会抛出 500 异常，尝试了一下用 WebServle 注解但是也访问不到，会直接显示 404&lt;br /&gt;
+&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/0076Bbuvly8gsgo5len7ij31hc0tetc4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h1&gt;
+&lt;p&gt;解决错误前先检查一下 Tomcat 的 jar 包有没有导入到该项目下&lt;br /&gt;
+ IDEA 为例： &lt;code&gt;File-&amp;gt;Project Structure-&amp;gt;Modules-&amp;gt;Dependencies&lt;/code&gt; &lt;br /&gt;
+&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/0076Bbuvly8gsgozwndboj31hc0u0teg.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/0076Bbuvly8gsgp0or0e8j30pg0jojsn.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+ 点击 Library&lt;br /&gt;
+&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/0076Bbuvly8gsgp1w7234j305s01s3yb.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://tva2.sinaimg.cn/large/0076Bbuvly8gsgp2j6rktj30f00dndfy.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+ 将 Tomcat 添加进去然后导入该 jar 包下的 Servlet 就可以解决了&lt;br /&gt;
+ Tomcat10 版本好像 Servlet 的包名换了&lt;br /&gt;
+错误导包  &lt;code&gt;javax.servlet.*&lt;/code&gt; &lt;br /&gt;
+ 正确导包  &lt;code&gt;jakarta.servlet.Servlet&lt;/code&gt; &lt;br /&gt;
+ 导入 &lt;code&gt;jakarta.servlet.Servlet&lt;/code&gt;  该包后重启服务器就解决了&lt;/p&gt;
+&lt;h2 id=&#34;webservlet注解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webservlet注解&#34;&gt;#&lt;/a&gt; WebServlet 注解&lt;/h2&gt;
+&lt;p&gt;WebServlet 注解需要导入 &lt;code&gt;jakarta.servlet.annotation.WebServlet&lt;/code&gt; &lt;br /&gt;
+ 如果导入成 &lt;code&gt;javax.servlet.annotation.WebServlet&lt;/code&gt; javax 包里面的也是用不了的&lt;br /&gt;
+&lt;img data-src=&#34;https://tva1.sinaimg.cn/large/0076Bbuvly8gsgogg9rqoj31hc0teqb4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://r.rainrem.top/Bootstrap%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/</guid>
             <title>Bootstrap前端框架</title>
